@@ -1,0 +1,11 @@
+@import "../../assets/scss/styled.scss";
+
+.filters{
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}

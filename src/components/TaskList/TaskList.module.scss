@@ -1,0 +1,21 @@
+@import "../../assets/scss/styled.scss";
+
+.tasklist{
+    width: 100%;
+    max-width: 1200px;
+    
+
+    .tasklist___title{
+        text-align: center;
+    }
+
+    .tasklist___list{
+        width: 100%;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        padding: 0;
+    }
+}
