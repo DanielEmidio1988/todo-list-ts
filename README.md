@@ -11,10 +11,30 @@
 | :---: |
 
 ## 🧭 Status do Projeto
-- ⏳Em andamento
+- ⏳Concluido
 
 ## 📜 Escopo do Projeto
-Descrição em breve
+Este repositório faz parte do desafio técnico para vaga de desenvolvedor, onde foi solicitado os seguintes itens:
+```Construir uma aplicação de lista de tarefas utilizando React.js e TypeScript. A aplicação deve permitir aos usuários criar, ler, atualizar e excluir tarefas. Também deve incluir funcionalidades de filtragem e ordenação. O código-fonte deve ser publicado no GitHub ou GitLab sob sua conta e pronto para ser clonado.
+
+Requisitos:
+
+Componentes:
+
+TaskList: Exibe uma lista de tarefas.
+Task: Renderiza uma tarefa individual.
+TaskForm: Lidera a criação e edição de tarefas.
+Filters: Fornece opções para filtrar tarefas por status (concluídas ou incompletas).
+Sorting: Permite ordenar tarefas por data de vencimento ou prioridade.
+Gerenciamento de Estado: Utilize useState para gerenciar o estado da lista de tarefas.
+
+Filtragem e Ordenação de Dados: Implemente lógica de filtragem e ordenação usando arrays JavaScript.
+
+TypeScript: Utilize tipos e interfaces TypeScript para definir a estrutura de tarefas e outros dados.
+
+React Hooks: Utilize useEffect para buscar tarefas de uma API mockada ou armazenamento local ao montar o componente.
+
+```
 
 ### Arquitetura de pastas
 - `📂 src ` - Pasta contendo os arquivos principais do projeto
@@ -39,7 +59,7 @@ Antes de iniciar, certifique-se de ter o [Node](https://nodejs.org/pt/download/p
 Abra o terminal Git na sua máquina, dentro da pasta onde deseja baixar o projeto, e execute o comando:
 
 ```
-git clone --single-branch --branch <<NOME-DA-BRANCH>> <<REPOSITÓRIO>>
+git clone https://github.com/DanielEmidio1988/todo-list-ts.git
 ```
 
 ### Instalação pacotes NPM
